@@ -11,10 +11,15 @@
     tools:context="edu.washington.ksf7.biggobutton.MainActivity">
 
     <Button
-        android:text="Button"
+        android:text="@string/push_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button" />
+        android:id="@+id/button"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="40sp"
+        android:textStyle="normal|italic"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@android:color/holo_green_dark" />
 </RelativeLayout>
